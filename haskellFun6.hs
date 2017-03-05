@@ -1,6 +1,3 @@
-----------------------------------------------------------------------
---    Stater File for HW6  (CIS 252: Spring 2017)
-----------------------------------------------------------------------
 
 -- possible pizza toppings
 data Topping = Pepperoni | Onions | Ham | Mushrooms | Chicken
@@ -23,12 +20,6 @@ data MenuItem = Breadsticks Sauce
               | Salad Size Dressing
               | Pizza Size Sauce [Topping]
                 deriving (Show)
-
-
-----------------------------------------------------------------------
---  Do not make alterations to the code above this line.  All of your
---  code should appear below this comment.
-----------------------------------------------------------------------
 
 breadsticks1, salad1, pizza1, pizza2 :: MenuItem
 order1, order2 :: [MenuItem]
