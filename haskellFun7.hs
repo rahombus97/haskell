@@ -1,9 +1,5 @@
 import Data.Char
 
--- Name: Christopher Chomicki
--- Section: M013
--- Email: cchomick@syr.edu
-
 locate :: Eq a => a -> [a] -> [Int]
 locate x ys = map fst (filter (\(a,b) -> b == x) (zip [1..] ys)) 
 
